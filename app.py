@@ -39,9 +39,6 @@ def main():
        'watering_from_eyes', 'increased_appetite', 'rusty_sputum',
        'lack_of_concentration', 'visual_disturbances',
        'receiving_blood_transfusion', 'blood_in_sputum', 'painful_walking',
-       'pus_filled_pimples', 'blackheads', 'scurring',
-       'lack_of_concentration', 'visual_disturbances',
-       'receiving_blood_transfusion', 'blood_in_sputum', 'painful_walking',
        'pus_filled_pimples', 'blackheads', 'scurring']
 
   for i in features:
