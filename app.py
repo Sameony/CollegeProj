@@ -49,8 +49,8 @@ def main():
         answer.append(0)
 
   test = np.array(answer)
-  st.write(model.n_features_in_)
- # st.write('You are diagnosed with : ',model.predict(test.reshape(1,-1))[0])
+  #st.write(model.n_features_in_)
+  st.write('You are diagnosed with : ',model.predict(test.reshape(1,-1))[0])
 
         
        
