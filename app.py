@@ -6,7 +6,7 @@ import gdown
 
 def predict_model():
     try:
-        gdown.download('https://drive.google.com/uc?id=1mLn2qIP3AsWDoe2sF_bsmBWW8d7elOPP&export=download', 'model.pkl', quiet=False)
+        gdown.download('https://drive.google.com/uc?export=download&id=1so7QdY51GnNR9yc_SirNmdmMm0IzrUSm', 'model.pkl', quiet=False)
         f = open('model.pkl','rb')
         model = pickle.load(f)
         return model
