@@ -42,8 +42,8 @@ def main():
        'pus_filled_pimples', 'blackheads', 'scurring']
 
   for i in features:
-    x = st.radio("Do you suffer from "+i+" ?",('Yes','No'))
-    if x == 'Yes':
+    x = st.radio("Do you suffer from "+i+" ?",('NO','YES'))
+    if x == 'YES':
         answer.append(1)
     else:
         answer.append(0)
