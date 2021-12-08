@@ -19,7 +19,7 @@ model = predict_model()
         
         
 def main():
-  st.title("Disease Prediction System Using Support Vector Machine")
+  st.title("COMMON AILMENTS POSSIBILITY")
   answer = []
   features = ['itching', 'nodal_skin_eruptions', 'continuous_sneezing', 'shivering',
        'chills', 'joint_pain', 'stomach_pain', 'acidity', 'ulcers_on_tongue',
